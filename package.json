@@ -1,14 +1,19 @@
 {
-  "name": "reactbot",
-  "version": "1.0.0",
-  "description": "React bot for webpage",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "rafal",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "reactbot",
+    "version": "1.0.0",
+    "description": "React bot for webpage",
+    "main": "index.js",
+    "engines": {
+        "node": "15.6.0",
+        "npm": "7.4.0"
+    },
+
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "rafal",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
 }
