@@ -1,9 +1,7 @@
 'use strict'
 const dialogflow = require('dialogflow');
 const config = require('../config/keys');
-const sessionClient = new dialogflow.SessionsClient();
 const structjson = require('./structjson')
-
 const projectID = config.googleProjectID;
 
 const credentials = {
