@@ -1,5 +1,5 @@
 module.exports = {
-    googleProjectID: 'reactpageagent',
+    googleProjectID: 'reactpageagenthostel-xgjh',
     dialogFlowSessionID: 'react-bot-session',
     dialogflowSessionLanguageCode: 'en-US'
 }
